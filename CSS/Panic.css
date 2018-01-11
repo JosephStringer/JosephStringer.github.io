@@ -24,11 +24,10 @@ body{
     .menu a {
         font-size: 26px;
         color: #BE5A44;
-        
-        padding: 30px 16px;
+        display: inline-block;
+        padding: 18px 16px;
         text-decoration: none;
         font-family: "Bebas Neue";
-        
     }
 
 
@@ -39,6 +38,8 @@ body{
     .menu img {
         padding: 7px 16px;
         transition: .5s ease;
+        display: inline-block;
+        align-items: center;
     }
 .menu img:hover {
     opacity:0.3;

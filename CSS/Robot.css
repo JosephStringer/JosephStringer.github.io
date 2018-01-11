@@ -22,16 +22,18 @@ body {
    .menu a {
         font-size: 26px;
         color: #B0B1AE;
-        
+        display:inline-block;
         padding: 30px 16px;
         text-decoration: none;
         font-family: "Bebas Neue";
         
     }
 
-   .menu img {
+    .menu img {
         padding: 7px 16px;
         transition: .5s ease;
+        display: inline-block;
+        align-items: center;
     }
 
         .menu img:hover {

@@ -23,7 +23,7 @@ body {
         font-size: 26px;
         color: #B0B1AE;
         display:inline-block;
-        padding: 30px 16px;
+        padding: 18px 16px;
         text-decoration: none;
         font-family: "Bebas Neue";
         
@@ -57,7 +57,8 @@ h2, h3, h4 {
 
     h2 img {
         min-width: 10em;
-        max-width: 20em;
+        max-width: 30em;
+        float:right;
     }
 
     h2 a {
@@ -66,6 +67,12 @@ h2, h3, h4 {
 
         h2 a:hover {
             color: #FFFFFF;
+        }
+
+        h2 iframe {
+            display: block;
+            float:right
+            
         }
 
 table {

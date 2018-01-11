@@ -65,8 +65,8 @@ h3{
 
 h2 img{
 	min-width: 10em;
-	max-width: 20em;
-	word-wrap: break-word;
+	max-width: 30em;
+	float:right;
 }
 
 h2 a {
@@ -75,6 +75,11 @@ h2 a {
 
     h2 a:hover {
         color: #FFFFFF;
+    }
+
+    h2 iframe {
+        display: block;
+        float: right
     }
 
 table {

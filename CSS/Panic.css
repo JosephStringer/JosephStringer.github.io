@@ -1,0 +1,163 @@
+h1
+{
+
+}
+
+body{
+	background-color: #B0B1AE;
+	margin:0px;
+	padding:0px;
+}
+
+.nav {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #535352;
+}
+
+.menu {
+    float: left;
+}
+
+    .menu a {
+        font-size: 26px;
+        color: #BE5A44;
+        display: inline-block;
+        padding: 18px 16px;
+        text-decoration: none;
+        font-family: "Bebas Neue";
+    }
+
+
+.menu a:hover {
+    background-color: #242425;
+}
+
+    .menu img {
+        padding: 7px 16px;
+        transition: .5s ease;
+        display: inline-block;
+        align-items: center;
+    }
+.menu img:hover {
+    opacity:0.3;
+}
+
+h2{
+	font-family: "Market Deco";
+	padding: 14px;
+	color: #BE5A44;
+	font-size: 18px;
+	float: left;
+	background-color: #535352;
+}
+
+h3{
+	font-family: "Market Deco";
+	padding: 14px;
+	color: #BE5A44;
+	font-size: 18px;
+	float: left;
+	background-color: #040405;
+}
+
+h2 img{
+	min-width: 10em;
+	max-width: 30em;
+	float:right;
+}
+
+h2 a {
+    color: #BE5A44
+}
+
+    h2 a:hover {
+        color: #FFFFFF;
+    }
+
+    h2 iframe {
+        display: block;
+        float: right
+    }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	color: #BE5A44;
+}
+th {
+    border: 3px solid #040405;
+    text-align: center;
+    padding: 8px;
+	font-family: "Bebas Neue";
+   
+}
+
+td {
+    border: 2px solid #040405;
+    text-align: left;
+    padding: 8px;
+    font-family: "Market Deco";
+    text-align: center;
+}
+
+td a{
+	text-decoration: none;
+	color: #BE5A44;
+}	
+
+td a:hover {
+	color:#FFFFFF;
+}
+	
+	
+tr td {
+    background-color: #535352;
+}
+	
+tr th {
+    background-color: #242425;
+}
+
+td img {
+    width: 10em;
+    display: block;
+    margin: auto;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 34px;
+    display: none;
+    width: 34px;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+        .menu a {
+            display: block;
+            border: 1px solid #040405;
+            margin: 0;
+        }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+}

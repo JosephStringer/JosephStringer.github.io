@@ -1,7 +1,22 @@
-h1
-{
+#ReportBody {
+    font-family: "Market Deco";
+    padding: 14px;
+    color: #EFDAB8;
+    background-color: #992827;
+    text-decoration: none;
 
 }
+
+#ReportBody .Title {
+    font-size: 30px;
+    display:inline-block;
+}
+
+    #ReportBody img {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
 
 body{
 	background-color: #402817;
